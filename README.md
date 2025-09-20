@@ -2,6 +2,28 @@
 ## تپش
 این یک برنامه موبایل است که با استفاده از Expo ساخته شده و برای ارائه تجربه‌ای بی‌نقص در زمینه تناسب اندام طراحی شده است. این برنامه به زودی در بازار عرضه خواهد شد و ما هیجان‌زده هستیم که آن را به کاربران سراسر جهان ارائه دهیم!
 
+
+### گالری تصاویر
+
+<p align="center">
+  <img src="screenshots/1.jpg" width="200"/>
+  <img src="screenshots/2.jpg" width="200"/>
+  <img src="screenshots/3.jpg" width="200"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/4.jpg" width="200"/>
+  <img src="screenshots/5.jpg" width="200"/>
+  <img src="screenshots/6.jpg" width="200"/>
+</p>
+<p align="center">
+  <img src="screenshots/6.jpg" width="300"/>
+  <img src="screenshots/7.jpg" width="300"/>
+</p>
+
+---
+
+
 ## ساختار پروژه
 
 پروژه از یک ساختار مدولار و منظم پیروی می‌کند تا مقیاس‌پذیری و نگهداری آن آسان باشد:
