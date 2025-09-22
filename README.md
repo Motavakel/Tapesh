@@ -29,8 +29,9 @@ Currently, the app is in development and will soon be released on the market. My
   <img src="screenshots/6.jpg" width="200"/>
 </p>
 <p align="center">
-  <img src="screenshots/7.jpg" width="300"/>
-  <img src="screenshots/8.jpg" width="300"/>
+  <img src="screenshots/7.jpg" width="200"/>
+  <img src="screenshots/8.jpg" width="200"/>
+  <img src="screenshots/9.jpg" width="200"/>
 </p>
 
 ---
