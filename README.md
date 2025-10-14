@@ -40,53 +40,65 @@ The project follows a modular and organized structure to ensure scalability and 
 
 ```
 TAPESH/
-├── _layout.tsx
 ├── app/
 │   ├── (tabs)/
 │   │   ├── _layout.tsx
 │   │   ├── index.tsx
 │   │   ├── profile.tsx
 │   │   └── reports.tsx
-├── onboarding/
-│   ├── _layout.tsx
+|   |
+|   ├── onboarding/
+│   │   ├── _layout.tsx
 │   │   ├── body-info.tsx
 │   │   ├── final-loading.tsx
 │   │   ├── gender.tsx
 │   │   ├── goal.tsx
-│   │   ├── index.tsx
-│   │   ├── _layout.tsx
-│   │   ├── Exercise.tsx
-│   │   ├── index.tsx
-│   │   ├── Rest.tsx
-│   │   ├── Summary.tsx
-│   │   ├── Workout.tsx
-│   │   └── WorkoutDetail.tsx
-├── assets/
-├── node_modules/
+│   │   └── index.tsx
+|   |
+|   ├── _layout.tsx
+|   ├── Exercise.tsx
+|   ├── NotificationTime.tsx
+|   ├── index.tsx
+|   ├── Rest.tsx
+|   ├── Summary.tsx
+|   ├── Workout.tsx
+│   └── WorkoutDetail.tsx
+|
 ├── src/
 │   ├── components/
+│   │   ├── CircularProgress.tsx
 │   │   ├── ExerciseCard.tsx
 │   │   ├── GetReadyCountdown.tsx
+│   │   ├── PlaylistModal.tsx
 │   │   ├── SettingsButton.tsx
 │   │   ├── SettingsModal.tsx
 │   │   ├── Splash.tsx
-│   │   └── Timer.tsx
+│   │   └── Timer.
+|   |
 │   ├── hooks/
 │   │   ├── useMusicPlayer.ts
+│   │   ├── useWorkoutExitConfirmation.ts
 │   │   └── useTimer.ts
+|   |
 │   ├── locales/
 │   │   ├── en.json
 │   │   ├── fa.json
 │   │   └── i18n.ts
+|   |
 │   ├── services/
+│   │   ├── notifications.ts
+│   │   ├── programs.ts
 │   │   └── assetMap.ts
+|   | 
 │   ├── store/
 │   │   ├── index.ts
 │   │   ├── musicSlice.ts
 │   │   ├── programSlice.ts
 │   │   ├── storage.ts
 │   │   ├── userSlice.ts
+│   │   ├── reportSlice.ts
 │   │   └── workoutSlice.ts
+|   | 
 │   └── types/
 │       └── index.ts
 ```
